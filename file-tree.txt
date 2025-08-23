@@ -1,0 +1,98 @@
+├── .env
+├── .eslintrc.json
+├── .gitignore
+├── actions
+│   ├── availability.js
+│   ├── bookings.js
+│   ├── dashboard.js
+│   ├── events.js
+│   ├── meetings.js
+│   └── users.js
+├── app
+│   ├── (auth)
+│   │   ├── layout.js
+│   │   ├── sign-in
+│   │   │   └── [[...sign-in]]
+│   │   └── sign-up
+│   │       └── [[...sign-up]]
+│   ├── (main)
+│   │   ├── availability
+│   │   │   ├── data.js
+│   │   │   ├── layout.jsx
+│   │   │   ├── page.jsx
+│   │   │   └── _components
+│   │   ├── dashboard
+│   │   │   └── page.jsx
+│   │   ├── events
+│   │   │   └── page.jsx
+│   │   ├── layout.jsx
+│   │   └── meetings
+│   │       ├── page.jsx
+│   │       └── _components
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.js
+│   ├── lib
+│   │   └── validators.js
+│   ├── not-found.jsx
+│   ├── page.jsx
+│   └── [username]
+│       ├── page.jsx
+│       └── [eventId]
+│           ├── page.jsx
+│           └── _components
+├── components
+│   ├── create-event.jsx
+│   ├── event-card.jsx
+│   ├── event-form.jsx
+│   ├── header.jsx
+│   ├── testimonials.jsx
+│   ├── ui
+│   │   ├── alert.jsx
+│   │   ├── avatar.jsx
+│   │   ├── button.jsx
+│   │   ├── card.jsx
+│   │   ├── carousel.jsx
+│   │   ├── checkbox.jsx
+│   │   ├── drawer.jsx
+│   │   ├── input.jsx
+│   │   ├── label.jsx
+│   │   ├── select.jsx
+│   │   ├── tabs.jsx
+│   │   └── textarea.jsx
+│   └── user-menu.jsx
+├── components.json
+├── hooks
+│   └── use-fetch.js
+├── jsconfig.json
+├── lib
+│   ├── checkUser.js
+│   ├── prisma.js
+│   └── utils.js
+├── middleware.js
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── prisma
+│   ├── migrations
+│   │   ├── 20240902193147_add_models
+│   │   │   └── migration.sql
+│   │   ├── 20240903051544_update_models
+│   │   │   └── migration.sql
+│   │   ├── 20240904042803_update_user
+│   │   │   └── migration.sql
+│   │   ├── 20240905105511_event_location_remove
+│   │   │   └── migration.sql
+│   │   ├── 20240910095951_add_google_event_id
+│   │   │   └── migration.sql
+│   │   └── migration_lock.toml
+│   └── schema.prisma
+├── public
+│   ├── logo.png
+│   ├── next.svg
+│   ├── poster.png
+│   └── vercel.svg
+├── README.md
+├── tailwind.config.js
+└── temp.js
