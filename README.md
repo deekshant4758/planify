@@ -62,12 +62,12 @@ This combination results in a high-performance, scalable scheduling platform tha
 ```mermaid
 graph LR
 A[User] --> B[Clerk Authentication]
-B --> C[Next.js Frontend (App Router)]
+B --> C[Next.js Frontend - App Router]
 C --> D[API Routes with JWT Validation]
 D --> E[Prisma ORM]
 E --> F[(PostgreSQL Database)]
 C --> G[React Components + Tailwind UI]
-```
+
 
 ---
 ## Project Structure
