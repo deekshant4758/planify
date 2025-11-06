@@ -60,7 +60,7 @@ This combination results in a high-performance, scalable scheduling platform tha
 ## System Architecture
 
 ```mermaid
-graph TD
+graph LR
 A[User] --> B[Clerk Authentication]
 B --> C[Next.js Frontend (App Router)]
 C --> D[API Routes with JWT Validation]
