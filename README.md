@@ -68,6 +68,7 @@ D --> E[Prisma ORM]
 E --> F[(PostgreSQL Database)]
 C --> G[React Components + Tailwind UI]
 
+```
 
 ---
 ## Project Structure
